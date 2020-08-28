@@ -19,6 +19,8 @@
 
 ## Contributing to OAP
 
+We support GitHub ***Issues*** as a lightweight way to ask questions and engage with the OAP developer community. We use Issues for maintaining a queue ofdevelopment work and as the public record for work on the project. So, feel free to open GitHub issues.
+
 This session includes what is required before submitting a code change.
 
 - We continue to use the Github **Issues** to track the new features/tasks/issues.​

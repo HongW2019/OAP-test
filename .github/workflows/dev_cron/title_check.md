@@ -19,14 +19,13 @@
 
 Thanks for opening a pull request!
 
-Could you open an issue for this pull request on JIRA?
-https://issues.apache.org/jira/browse/ARROW
+Could you open an issue for this pull request on Github Issues?
+https://github.com/HongW2019/OAP-test/issues
 
-Then could you also rename pull request title in the following format?
+Then could you also rename pull request title and commit message in the following format?
 
-    ARROW-${JIRA_ID}: [${COMPONENT}] ${SUMMARY}
+    [OAP-${ISSUES_ID}]: [${MUDULENAME}] ${commit message}
 
 See also:
 
-  * [Other pull requests](https://github.com/apache/arrow/pulls/)
-  * [Contribution Guidelines - How to contribute patches](https://arrow.apache.org/docs/developers/contributing.html#how-to-contribute-patches)
+  * [Other pull requests](https://github.com/HongW2019/OAP-test/pulls/)

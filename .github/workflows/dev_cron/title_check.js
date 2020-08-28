@@ -57,7 +57,7 @@ async function commentOpenISSUESIssue(pullRequestNumber) {
     const pullRequestNumber = pull.number;
     const title = pull.title;
     if (!haveISSUESID(title)) {
-      await commentOpenISSUESIssueIssue(pullRequestNumber);
+      await commentOpenISSUESIssue(pullRequestNumber);
     }
   });
 })();

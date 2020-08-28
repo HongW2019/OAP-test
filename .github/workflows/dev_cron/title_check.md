@@ -24,7 +24,7 @@ https://github.com/HongW2019/OAP-test/issues
 
 Then could you also rename pull request title and commit message in the following format?
 
-    [OAP-${ISSUES_ID}]: [${MUDULENAME}] ${commit message}
+    [OAP-${ISSUES_ID}] [${MUDULENAME}] ${commit message}
 
 See also:
 

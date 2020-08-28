@@ -18,3 +18,5 @@
 -->
 
 ## Contributing to OAP
+There are many ways to contribute to OAP:
+- OAP 

@@ -30,7 +30,7 @@ on:
 
 jobs:
 
-  jira-link:
+  issues-link:
     if: github.repository == 'HongW2019/OAP-test'
     name: issues link
     runs-on: ubuntu-latest

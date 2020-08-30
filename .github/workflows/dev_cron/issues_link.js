@@ -21,11 +21,12 @@ function detectISSUESID(title) {
   if (!title) {
     return null;
   }
-  const matched = /^(OAP)-\d+/.exec(title);
+  const matched = /^(\[OAP\])-\d+/.exec(title);
   if (!matched) {
     return null;
   }
-  return matched[0];
+  const issues_number = /\d+/.exec(matched[0])
+  return issues_number[0];
 }
 
 async function haveComment(pullRequestNumber, body) {

@@ -26,7 +26,7 @@ function detectISSUESID(title) {
     return null;
   }
   const issues_number = matched[0].replace(/[^0-9]/ig,"");
-  return matched[0];
+  return issues_number;
 }
 
 async function haveComment(pullRequestNumber, body) {

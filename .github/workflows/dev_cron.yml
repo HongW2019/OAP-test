@@ -31,9 +31,9 @@ jobs:
     name: issues link
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master-5
+      - uses: actions/checkout@master-7
       - name: Comment
-        uses: actions/github-script@master-5
+        uses: actions/github-script@master-7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -47,9 +47,9 @@ jobs:
     name: Title check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master-5
+      - uses: actions/checkout@master-7
       - name: Check
-        uses: actions/github-script@master-5
+        uses: actions/github-script@master-7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |

@@ -21,7 +21,7 @@ function detectISSUESID(title) {
   if (!title) {
     return null;
   }
-  const matched = /^(\\[OAP-\d+\\])/.exec(title);
+  const matched = /^(\\[)OAP-\d+(\\])/.exec(title);
   if (!matched) {
     return null;
   }

@@ -8,6 +8,11 @@ Generated on 2020-10-29
 |:---|:---|
 |[#28](https://github.com/HongW2019/OAP-test/issues/28)|[FEA] Have substring support non-literal splits.|
 
+### Performance
+|||
+|:---|:---|
+|[#25](https://github.com/HongW2019/OAP-test/issues/25)|Issues title and label test|
+
 ### Bugs Fixed
 |||
 |:---|:---|

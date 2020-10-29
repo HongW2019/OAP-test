@@ -3,6 +3,11 @@ Generated on 2020-10-29
 
 ## Release 0.2
 
+### Features
+|||
+|:---|:---|
+|[#28](https://github.com/HongW2019/OAP-test/issues/28)|[FEA] Have substring support non-literal splits.|
+
 ### Bugs Fixed
 |||
 |:---|:---|

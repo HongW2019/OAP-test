@@ -203,9 +203,9 @@ def process_issue(token: str):
     return fetch(resource_type=ISSUES, token=token)
 
 
-def fetch(resource_type: str, token: str, variables: dict = None):
+def fetch(resource_type: str, token: str):
     items = []
-    if resource_type == PULL_REQUESTS and variables:
+    if resource_type == PULL_REQUESTS:
         q = query_pr
         variables = {}
     elif resource_type == ISSUES:
@@ -216,7 +216,7 @@ def fetch(resource_type: str, token: str, variables: dict = None):
 
     has_next = True
     while has_next:
-        res = post(query=q, token=token, variable=variables)
+        res = post(query=q, token=token)
         if res.status_code == 200:
             d = res.json()
             has_next = d['data']['repository'][resource_type]["pageInfo"]["hasNextPage"]
@@ -227,9 +227,9 @@ def fetch(resource_type: str, token: str, variables: dict = None):
     return items
 
 
-def post(query: str, token: str, variable: dict):
+def post(query: str, token: str):
     return requests.post('https://api.github.com/graphql',
-                         json={'query': query, 'variables': variable},
+                         json={'query': query},
                          headers={"Authorization": f"token {token}"})
 
 
@@ -281,7 +281,7 @@ def print_no_project_pr(no_project_prs: list):
     if len(no_project_prs) != 0:
         print("Merged Pull Requests w/o Project:")
     for pr in no_project_prs:
-        print(f"{pr['baseRefName']} #{pr['number']} {pr['title']} {pr['url']}")
+        print(f"#{pr['number']} {pr['title']} {pr['url']}")
 
 
 def main(rels: str, path: str, token: str):

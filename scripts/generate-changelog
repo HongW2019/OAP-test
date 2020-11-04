@@ -200,7 +200,7 @@ def process_changelog(resource_type: str, changelog: dict, releases: set, projec
 def process_pr(releases: set, token: str):
     pr = []
     for rel in releases:
-        pr.extend(fetch(resource_type=PULL_REQUESTS, token=token, variables={'baseRefName': f"branch-{rel}"}))
+        pr.extend(fetch(resource_type=PULL_REQUESTS, token=token, variables={'baseRefName': f"branch-{rel}-spark-3.x"}))
     return pr
 
 

@@ -18,11 +18,12 @@
 
 This tool takes list of release versions to generate `CHANGELOG.md`.
 The changelog will include all merged PRs w/o `[bot]` postfix,
-and issues that include the labels `bug`, `feature request`, `NativeSQL`, `performance`, `MLlib`, `shuffle` and `benchmark`,
+and issues that include the labels `bug`, `feature request`, `NativeSQL`, `performance`, `MLlib`,
+`SQL Data Cache`, `shuffle` and `benchmark`,
 minus any issues with the labels `wontfix`, `invalid` or `duplicate`.
 
 For each project there should be an issue subsection for,
-Features: all issues with label `feature request` + `SQL`
+Features: all issues with label `feature request` + `NativeSQL` + `MLlib` + `SQL Data Cache`
 Performance: all issues with label `performance` + `shuffle` + `benchmark`
 Bugs fixed: all issues with label `bug`
 

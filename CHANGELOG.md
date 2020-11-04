@@ -21,6 +21,8 @@ Generated on 2020-11-04
 ### PRs
 |||
 |:---|:---|
+|[#47](https://github.com/HongW2019/OAP-test/pull/47)|Ready to commit|
+|[#44](https://github.com/HongW2019/OAP-test/pull/44)|Branch 0.2|
 |[#42](https://github.com/HongW2019/OAP-test/pull/42)|Branch 0.2 ok|
 |[#37](https://github.com/HongW2019/OAP-test/pull/37)|Based branch 0.2|
 |[#35](https://github.com/HongW2019/OAP-test/pull/35)|PR test|

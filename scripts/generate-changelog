@@ -73,15 +73,13 @@ LABEL_PERFORMANCE, LABEL_SHUFFLE, LABEL_BENCHMARK = 'performance', 'shuffle', 'b
 LABEL_FEATURE, LABEL_SQL = 'feature request', 'SQL'
 # Queries
 query_pr = """
-query ($baseRefName: String!, $after: String) {
+query ($after: String) {
   repository(name: "OAP-test", owner: "HongW2019") {
-    pullRequests(states: [MERGED], baseRefName: $baseRefName, first: 100, after: $after) {
+    pullRequests(states: [MERGED], first: 100, after: $after) {
       totalCount
       nodes {
         number
         title
-        headRefName
-        baseRefName
         state
         url
         labels(first: 10) {
@@ -200,7 +198,7 @@ def process_changelog(resource_type: str, changelog: dict, releases: set, projec
 def process_pr(releases: set, token: str):
     pr = []
     for rel in releases:
-        pr.extend(fetch(resource_type=PULL_REQUESTS, token=token, variables={'baseRefName': f"branch-{rel}"}))
+        pr.extend(fetch(resource_type=PULL_REQUESTS, token=token))
     return pr
 
 
@@ -212,6 +210,7 @@ def fetch(resource_type: str, token: str, variables: dict = None):
     items = []
     if resource_type == PULL_REQUESTS and variables:
         q = query_pr
+        variables = {}
     elif resource_type == ISSUES:
         q = query_issue
         variables = {}

@@ -18,7 +18,7 @@
 
 This tool takes list of release versions to generate `CHANGELOG.md`.
 The changelog will include all merged PRs w/o `[bot]` postfix,
-and issues that include the labels `bug`, `feature request`, `SQL`, `performance`,  `shuffle` and `benchmark`,
+and issues that include the labels `bug`, `feature request`, `NativeSQL`, `performance`, `MLlib`, `shuffle` and `benchmark`,
 minus any issues with the labels `wontfix`, `invalid` or `duplicate`.
 
 For each project there should be an issue subsection for,
@@ -43,7 +43,7 @@ Usage:
     cd OAP-test/
 
     # generate changelog for release 0.1,0.2 to ./CHANGELOG.md
-    dev/changelog --token=<GITHUB_PERSONAL_ACCESS_TOKEN> --releases=0.1,0.2    --path=./CHANGELOG.md
+    dev/generate-changelog --token=<GITHUB_PERSONAL_ACCESS_TOKEN> --releases=0.1,0.2    --path=./CHANGELOG.md
 
 """
 import os
@@ -68,7 +68,7 @@ PRS = 'PRs'
 LABEL_WONTFIX, LABEL_INVALID, LABEL_DUPLICATE = 'wontfix', 'invalid', 'duplicate'
 LABEL_BUG = 'bug'
 LABEL_PERFORMANCE, LABEL_SHUFFLE, LABEL_BENCHMARK = 'performance', 'shuffle', 'benchmark'
-LABEL_FEATURE, LABEL_SQL = 'feature request', 'SQL'
+LABEL_FEATURE, LABEL_SQL, LABEL_MLLIB, LABEL_CACHE = 'feature request', 'NativeSQL', 'MLlib', 'SQL Data Cache'
 # Queries
 query_pr = """
 query ($after: String) {
@@ -244,7 +244,7 @@ def rules(labels: set):
         return BUGS_FIXED
     if LABEL_PERFORMANCE in labels or LABEL_SHUFFLE in labels or LABEL_BENCHMARK in labels:
         return PERFORMANCE
-    if LABEL_FEATURE in labels or LABEL_SQL in labels:
+    if LABEL_FEATURE in labels or LABEL_SQL in labels or LABEL_MLLIB in labels or LABEL_CACHE in labels:
         return FEATURES
     return INVALID
 

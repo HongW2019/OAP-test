@@ -6,6 +6,8 @@ Generated on 2020-11-04
 ### Features
 |||
 |:---|:---|
+|[#48](https://github.com/HongW2019/OAP-test/issues/48)|[MLlib] test|
+|[#45](https://github.com/HongW2019/OAP-test/issues/45)|Mllib label test|
 |[#28](https://github.com/HongW2019/OAP-test/issues/28)|[FEA] Have substring support non-literal splits.|
 
 ### Performance

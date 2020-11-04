@@ -26,7 +26,6 @@ Generated on 2020-11-04
 |[#35](https://github.com/HongW2019/OAP-test/pull/35)|PR test|
 |[#34](https://github.com/HongW2019/OAP-test/pull/34)|PRs test|
 |[#33](https://github.com/HongW2019/OAP-test/pull/33)|succeed|
-|[#32](https://github.com/HongW2019/OAP-test/pull/32)|branch-0.3|
 
 ## Release 0.1
 

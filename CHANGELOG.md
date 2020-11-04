@@ -1,5 +1,6 @@
 # Change log
-Generated on 2020-10-29
+Generated on 2020-11-02
+
 
 ## Release 0.2
 
@@ -17,3 +18,15 @@ Generated on 2020-10-29
 |||
 |:---|:---|
 |[#31](https://github.com/HongW2019/OAP-test/issues/31)|[BUG]test bug1|
+
+### PRs
+|||
+|:---|:---|
+|[#37](https://github.com/HongW2019/OAP-test/pull/37)|Based branch 0.2|
+
+## Release 0.1
+
+### Performance
+|||
+|:---|:---|
+|[#29](https://github.com/HongW2019/OAP-test/issues/29)|[BUG] Input partition differences using show()|

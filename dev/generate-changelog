@@ -108,7 +108,7 @@ query ($after: String) {
 query_issue = """
 query ($after: String) {
   repository(name: "OAP-test", owner: "HongW2019") {
-    issues(states: [CLOSED], labels: ["SQL", "feature request", "performance", "benchmark", "bug", "shuffle"], first: 100, after: $after) {
+    issues(states: [CLOSED], labels: ["feature request", "performance", "benchmark", "bug", "shuffle", "NativeSQL", "MLlib", "SQL Data Source"], first: 100, after: $after) {
       totalCount
       nodes {
         number

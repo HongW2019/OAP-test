@@ -1,5 +1,5 @@
 # Change log
-Generated on 2020-11-02
+Generated on 2020-11-04
 
 ## Release 0.2
 
@@ -17,11 +17,6 @@ Generated on 2020-11-02
 |||
 |:---|:---|
 |[#31](https://github.com/HongW2019/OAP-test/issues/31)|[BUG]test bug1|
-
-### PRs
-|||
-|:---|:---|
-|[#37](https://github.com/HongW2019/OAP-test/pull/37)|Based branch 0.2|
 
 ## Release 0.1
 

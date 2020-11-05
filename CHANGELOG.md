@@ -28,6 +28,7 @@ Generated on 2020-11-05
 ### PRs
 |||
 |:---|:---|
+|[#66](https://github.com/HongW2019/OAP-test/pull/66)|[OAP-65][Native-SQL-Engine] Add new unit tests|
 |[#64](https://github.com/HongW2019/OAP-test/pull/64)| [OAP-59][Native-SQL-Engine] Improve performance|
 |[#63](https://github.com/HongW2019/OAP-test/pull/63)|[OAP-62][RDD-Cache-PMem-Extension]Update Changelog for Release 1.0.0|
 |[#61](https://github.com/HongW2019/OAP-test/pull/61)|[OAP-60][SQL-Cache-Data-Source]Update Changelog for Release 1.0.0|

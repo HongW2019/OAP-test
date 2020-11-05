@@ -6,6 +6,7 @@ Generated on 2020-11-05
 ### Features
 |||
 |:---|:---|
+|[#62](https://github.com/HongW2019/OAP-test/issues/62)|[RDD-Cache-PMem-Extension] testing|
 |[#50](https://github.com/HongW2019/OAP-test/issues/50)|[SQL-Cache-Data-Source] a new feature request|
 |[#38](https://github.com/HongW2019/OAP-test/issues/38)|[Intel-MLlib] Create branch-1.0-spark-3.x |
 
@@ -25,6 +26,7 @@ Generated on 2020-11-05
 ### PRs
 |||
 |:---|:---|
+|[#63](https://github.com/HongW2019/OAP-test/pull/63)|[OAP-62][RDD-Cache-PMem-Extension]Update Changelog for Release 1.0.0|
 |[#61](https://github.com/HongW2019/OAP-test/pull/61)|[OAP-60][SQL-Cache-Data-Source]Update Changelog for Release 1.0.0|
 |[#58](https://github.com/HongW2019/OAP-test/pull/58)|[OAP-50][SQL-Cache-Data-Source]Update Changelog for Release 1.0.0|
 |[#57](https://github.com/HongW2019/OAP-test/pull/57)|[OAP-56][Native-SQL-Engine]Improving|

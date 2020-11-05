@@ -6,6 +6,7 @@ Generated on 2020-11-05
 ### Features
 |||
 |:---|:---|
+|[#50](https://github.com/HongW2019/OAP-test/issues/50)|[SQL-Cache-Data-Source] a new feature request|
 |[#38](https://github.com/HongW2019/OAP-test/issues/38)|[Intel-MLlib] Create branch-1.0-spark-3.x |
 
 ### Performance
@@ -23,9 +24,10 @@ Generated on 2020-11-05
 ### PRs
 |||
 |:---|:---|
+|[#58](https://github.com/HongW2019/OAP-test/pull/58)|[OAP-50][SQL-Cache-Data-Source]Update Changelog for Release 1.0.0|
 |[#57](https://github.com/HongW2019/OAP-test/pull/57)|[OAP-56][OAP-Native-SQL]Improving|
-|[#55](https://github.com/HongW2019/OAP-test/pull/55)|[OAP-54][OAP-MLlib]Improve MLlib performance by 2X|
-|[#53](https://github.com/HongW2019/OAP-test/pull/53)|[OAP-52][OAP-NativeSQLEngine] bug fixed|
+|[#55](https://github.com/HongW2019/OAP-test/pull/55)|[OAP-54][Intel-MLlib]Improve MLlib performance by 2X|
+|[#53](https://github.com/HongW2019/OAP-test/pull/53)|[OAP-52][Native-SQL-Engine] bug fixed|
 |[#51](https://github.com/HongW2019/OAP-test/pull/51)|[OAP-50][OAP-SQL-Data-Source] Refactor branch-1.x-spark-3.x|
 |[#40](https://github.com/HongW2019/OAP-test/pull/40)|[RPMem Shuffle] Test for release 1.0.0|
 |[#39](https://github.com/HongW2019/OAP-test/pull/39)|[Unified-Arrow-Data-Source] Based on Spark 3.0.1|

@@ -41,7 +41,7 @@ Generated on 2020-11-05
 |[#39](https://github.com/HongW2019/OAP-test/pull/39)|[OAP-38][Unified-Arrow-Data-Source] Based on Spark 3.0.1|
 |[#32](https://github.com/HongW2019/OAP-test/pull/32)|[OAP-31][OAP-Shuffle] a bug fix|
 
-## Release 0.2
+## Release 0.2.0
 
 ### Features
 |||
@@ -63,16 +63,3 @@ Generated on 2020-11-05
 |[#35](https://github.com/HongW2019/OAP-test/pull/35)|PR test|
 |[#34](https://github.com/HongW2019/OAP-test/pull/34)|PRs test|
 |[#33](https://github.com/HongW2019/OAP-test/pull/33)|succeed|
-
-## Release 0.1
-
-### Performance
-|||
-|:---|:---|
-|[#29](https://github.com/HongW2019/OAP-test/issues/29)|[BUG] Input partition differences using show()|
-
-### PRs
-|||
-|:---|:---|
-|[#26](https://github.com/HongW2019/OAP-test/pull/26)|part-1|
-|[#27](https://github.com/HongW2019/OAP-test/pull/27)|Branch 0.1|

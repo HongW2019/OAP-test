@@ -8,9 +8,15 @@ Generated on 2020-11-05
 |:---|:---|
 |[#38](https://github.com/HongW2019/OAP-test/issues/38)|[FEA]branch-1.0-spark-3.x |
 
+### Bugs Fixed
+|||
+|:---|:---|
+|[#52](https://github.com/HongW2019/OAP-test/issues/52)|[OAP-NativeSQLEngine]A bug need to fix|
+
 ### PRs
 |||
 |:---|:---|
+|[#53](https://github.com/HongW2019/OAP-test/pull/53)|[OAP-52][OAP-NativeSQLEngine] bug fixed|
 |[#51](https://github.com/HongW2019/OAP-test/pull/51)|[OAP-50][OAP-SQL-Data-Source]create branch-1.x-spark-3.x|
 |[#40](https://github.com/HongW2019/OAP-test/pull/40)|test for release 1.0.0|
 |[#39](https://github.com/HongW2019/OAP-test/pull/39)|Based branch 1.0|

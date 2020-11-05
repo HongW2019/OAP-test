@@ -8,19 +8,26 @@ Generated on 2020-11-05
 |:---|:---|
 |[#38](https://github.com/HongW2019/OAP-test/issues/38)|[FEA]branch-1.0-spark-3.x |
 
+### Performance
+|||
+|:---|:---|
+|[#54](https://github.com/HongW2019/OAP-test/issues/54)|[OAP-MLlib]Improve MLlib performance|
+
 ### Bugs Fixed
 |||
 |:---|:---|
 |[#52](https://github.com/HongW2019/OAP-test/issues/52)|[OAP-NativeSQLEngine]A bug need to fix|
+|[#31](https://github.com/HongW2019/OAP-test/issues/31)|[BUG]test bug1|
 
 ### PRs
 |||
 |:---|:---|
+|[#55](https://github.com/HongW2019/OAP-test/pull/55)|[OAP-54][OAP-MLlib]Improve MLlib performance by 2X|
 |[#53](https://github.com/HongW2019/OAP-test/pull/53)|[OAP-52][OAP-NativeSQLEngine] bug fixed|
 |[#51](https://github.com/HongW2019/OAP-test/pull/51)|[OAP-50][OAP-SQL-Data-Source]create branch-1.x-spark-3.x|
 |[#40](https://github.com/HongW2019/OAP-test/pull/40)|test for release 1.0.0|
 |[#39](https://github.com/HongW2019/OAP-test/pull/39)|Based branch 1.0|
-|[#32](https://github.com/HongW2019/OAP-test/pull/32)|branch-0.3|
+|[#32](https://github.com/HongW2019/OAP-test/pull/32)|[OAP-31][OAP-Shuffle] a bug fix|
 
 ## Release 0.2
 
@@ -31,11 +38,6 @@ Generated on 2020-11-05
 |[#45](https://github.com/HongW2019/OAP-test/issues/45)|Mllib label test|
 |[#25](https://github.com/HongW2019/OAP-test/issues/25)|Issues title and label test|
 |[#28](https://github.com/HongW2019/OAP-test/issues/28)|[FEA] Have substring support non-literal splits.|
-
-### Bugs Fixed
-|||
-|:---|:---|
-|[#31](https://github.com/HongW2019/OAP-test/issues/31)|[BUG]test bug1|
 
 ### PRs
 |||

@@ -1,19 +1,7 @@
 # Change log
-Generated on 2020-11-04
+Generated on 2020-11-05
 
 ## Release 0.2
-
-### Features
-|||
-|:---|:---|
-|[#48](https://github.com/HongW2019/OAP-test/issues/48)|[MLlib] test|
-|[#45](https://github.com/HongW2019/OAP-test/issues/45)|Mllib label test|
-|[#28](https://github.com/HongW2019/OAP-test/issues/28)|[FEA] Have substring support non-literal splits.|
-
-### Performance
-|||
-|:---|:---|
-|[#25](https://github.com/HongW2019/OAP-test/issues/25)|Issues title and label test|
 
 ### Bugs Fixed
 |||
@@ -23,6 +11,7 @@ Generated on 2020-11-04
 ### PRs
 |||
 |:---|:---|
+|[#49](https://github.com/HongW2019/OAP-test/pull/49)|Ready to commit|
 |[#23](https://github.com/HongW2019/OAP-test/pull/23)|[OAP-1]check pr title on master-09|
 |[#47](https://github.com/HongW2019/OAP-test/pull/47)|Ready to commit|
 |[#44](https://github.com/HongW2019/OAP-test/pull/44)|Branch 0.2|

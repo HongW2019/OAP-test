@@ -68,8 +68,8 @@ PRS = 'PRs'
 # Labels
 LABEL_WONTFIX, LABEL_INVALID, LABEL_DUPLICATE = 'wontfix', 'invalid', 'duplicate'
 LABEL_BUG = 'bug'
-LABEL_PERFORMANCE, LABEL_SHUFFLE, LABEL_BENCHMARK = 'performance', 'shuffle', 'benchmark'
-LABEL_FEATURE, LABEL_SQL, LABEL_MLLIB, LABEL_CACHE = 'feature request', 'NativeSQL', 'MLlib', 'SQL Data Cache'
+LABEL_PERFORMANCE = 'performance'
+LABEL_FEATURE = 'feature'
 # Queries
 query_pr = """
 query ($after: String) {
@@ -109,7 +109,7 @@ query ($after: String) {
 query_issue = """
 query ($after: String) {
   repository(name: "OAP-test", owner: "HongW2019") {
-    issues(states: [CLOSED], labels: ["feature request", "performance", "benchmark", "bug", "shuffle", "NativeSQL", "MLlib", "SQL Data Source"], first: 100, after: $after) {
+    issues(states: [CLOSED], labels: ["feature", "performance", "bug"], first: 100, after: $after) {
       totalCount
       nodes {
         number
@@ -243,9 +243,9 @@ def rules(labels: set):
         return INVALID
     if LABEL_BUG in labels:
         return BUGS_FIXED
-    if LABEL_PERFORMANCE in labels or LABEL_SHUFFLE in labels or LABEL_BENCHMARK in labels:
+    if LABEL_PERFORMANCE in labels:
         return PERFORMANCE
-    if LABEL_FEATURE in labels or LABEL_SQL in labels or LABEL_MLLIB in labels or LABEL_CACHE in labels:
+    if LABEL_FEATURE in labels:
         return FEATURES
     return INVALID
 

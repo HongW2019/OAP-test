@@ -1,5 +1,17 @@
 # Change log
-Generated on 2020-11-05
+Generated on 2021-04-16
+
+## Release 1.1.0
+
+### Bugs Fixed
+|||
+|:---|:---|
+|[#67](https://github.com/HongW2019/OAP-test/issues/67)|A requirement for organizing multi-repo PRs and Issues|
+
+### PRs
+|||
+|:---|:---|
+|[#68](https://github.com/HongW2019/OAP-test/pull/68)|[OAP-67]Update the generate-changelog|
 
 ## Release 1.0.0
 
@@ -40,26 +52,3 @@ Generated on 2020-11-05
 |[#40](https://github.com/HongW2019/OAP-test/pull/40)|[OAP-36][RPMem-Shuffle] Test for release 1.0.0|
 |[#39](https://github.com/HongW2019/OAP-test/pull/39)|[OAP-38][Unified-Arrow-Data-Source] Based on Spark 3.0.1|
 |[#32](https://github.com/HongW2019/OAP-test/pull/32)|[OAP-31][OAP-Shuffle] a bug fix|
-
-## Release 0.2.0
-
-### Features
-|||
-|:---|:---|
-|[#48](https://github.com/HongW2019/OAP-test/issues/48)|[MLlib] test|
-|[#45](https://github.com/HongW2019/OAP-test/issues/45)|Mllib label test|
-|[#25](https://github.com/HongW2019/OAP-test/issues/25)|Issues title and label test|
-|[#28](https://github.com/HongW2019/OAP-test/issues/28)|[FEA] Have substring support non-literal splits.|
-
-### PRs
-|||
-|:---|:---|
-|[#49](https://github.com/HongW2019/OAP-test/pull/49)|Ready to commit|
-|[#23](https://github.com/HongW2019/OAP-test/pull/23)|[OAP-1]check pr title on master-09|
-|[#47](https://github.com/HongW2019/OAP-test/pull/47)|Ready to commit|
-|[#44](https://github.com/HongW2019/OAP-test/pull/44)|Branch 0.2|
-|[#42](https://github.com/HongW2019/OAP-test/pull/42)|Branch 0.2 ok|
-|[#37](https://github.com/HongW2019/OAP-test/pull/37)|Based branch 0.2|
-|[#35](https://github.com/HongW2019/OAP-test/pull/35)|PR test|
-|[#34](https://github.com/HongW2019/OAP-test/pull/34)|PRs test|
-|[#33](https://github.com/HongW2019/OAP-test/pull/33)|succeed|

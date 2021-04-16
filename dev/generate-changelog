@@ -63,6 +63,75 @@ LABEL_PERFORMANCE = 'performance'
 LABEL_FEATURE = 'feature'
 # Queries
 query_pr = """
+# query ($after: String) {
+#   repository(name: "OAP-test", owner: "HongW2019") {
+#     pullRequests(states: [MERGED], first: 100, after: $after) {
+#       totalCount
+#       nodes {
+#         number
+#         title
+#         state
+#         url
+#         labels(first: 10) {
+#           nodes {
+#             name
+#           }
+#         }
+#         projectCards(first: 10) {
+#           nodes {
+#             project {
+#               name
+#             }
+#             column {
+#               name
+#             }
+#           }
+#         }
+#         mergedAt
+#       }
+#       pageInfo {
+#         hasNextPage
+#         endCursor
+#       }
+#     }
+#   }
+# }
+query ($after: String) {
+  repository(name: "OAP-test", owner: "HongW2019") {
+    pullRequests(states: [MERGED], first: 100, after: $after) {
+      totalCount
+      nodes {
+        number
+        title
+        state
+        url
+        labels(first: 10) {
+          nodes {
+            name
+          }
+        }
+        projectCards(first: 10) {
+          nodes {
+            project {
+              name
+            }
+            column {
+              name
+            }
+          }
+        }
+        mergedAt
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}
+
+"""
+query_pr = """
 query ($after: String) {
   repository(name: "OAP-test", owner: "HongW2019") {
     pullRequests(states: [MERGED], first: 100, after: $after) {
@@ -100,6 +169,41 @@ query ($after: String) {
 query_issue = """
 query ($after: String) {
   repository(name: "OAP-test", owner: "HongW2019") {
+    issues(states: [CLOSED], labels: ["feature", "performance", "bug"], first: 100, after: $after) {
+      totalCount
+      nodes {
+        number
+        title
+        state
+        url
+        labels(first: 10) {
+          nodes {
+            name
+          }
+        }
+        projectCards(first: 10) {
+          nodes {
+            project {
+              name
+            }
+            column {
+              name
+            }
+          }
+        }
+        closedAt
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}
+"""
+query_issue = """
+query ($after: String) {
+  repository(name: "OAP-bot", owner: "HongW2019") {
     issues(states: [CLOSED], labels: ["feature", "performance", "bug"], first: 100, after: $after) {
       totalCount
       nodes {
